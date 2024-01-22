@@ -1,0 +1,11 @@
+body{
+    margin:0%;
+    padding: 0%;
+}
+img{
+  width: 80%;
+  margin: auto;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
