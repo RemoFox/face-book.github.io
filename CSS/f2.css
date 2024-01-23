@@ -35,6 +35,9 @@ body
 
 .whi{
     margin: auto;
+    display: flex;
+flex-direction: column;
+align-items: center;
     background-color:#fff;
     width:400px;
     height:355px;
@@ -45,7 +48,7 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
 .em input{
     width: 358px;height:48px;;
    margin-top: 20px;
-   margin-left: 15px;
+   /* margin-left: 15px; */
     border-radius:6px; 
     font-size:17px;
     border:solid 1px rgba(0, 0, 0, 0.13);
@@ -60,7 +63,7 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
 .pa input{
     width: 358px;height:48px;
         margin-top: 15px;
-        margin-left: 15px;
+        /* margin-left: 15px; */
          border-radius:6px; 
          font-size:17px;
          border:solid 1px rgba(0, 0, 0, 0.13);
@@ -73,7 +76,7 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
     }
  .in button{background-color: #1877f2; border: none;
             margin-top: 15px;
-            margin-left: 15px;
+            /* margin-left: 15px; */
             border-radius: 6px;
             font-size:22px;font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
             font-weight: 600;
@@ -97,7 +100,7 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
     background-color: rgb(212, 212, 212);
     border: none;
     width: 350px;
-    margin: 20px 22px;
+    margin-top: 20px;
    
 }
 .gr{background-color: #42b72a;  
@@ -354,7 +357,7 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
    }
    .left{
     margin: auto;
-    padding-right:40px;
+
    }
    .left .whi{
     width:320px;
@@ -365,62 +368,95 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
    .lmg{
     display: block;
      margin: auto;
-     padding-left: 20px;
-     padding-bottom:20px ;
-}
+   }
 
 }
-/* @media(max-width:360px){
-    .left{
-        width: 300px;  
- 
-
+ @media(max-width:425px){
+    body{
+        background-color: #fff;
     }
-    .left .whi{
-      
-           width:300px;
-           height:320px;
-           margin: auto;
-       
-        }  
-     
-           .em input , .pa input{
-               width: 250px;height:40px;
-               }
-               .em input::placeholder {
-                   padding-left:100px;  
-               }
-               .pa input::placeholder{
-                   padding-left:180px; 
-               }
-            .in button{
-                        width: 260px;height:30px;
-         }
-           .lin {text-align: center; 
-               margin-top: 20px;
-               font-size: 15px;
-               }
-         .whi hr{
-       width: 250px;
- 
-           }
-           .gr{
-               font-size:13px;
-             
-           }
-           .sa{
-          
-               width: 300px;
-              
-           }
-           .sa a{
-          
-               font-size: 12px;
-           
-           }
-           .sa p{
-               font-size: 12px;
-           }
-         
-  
+    .back{
+        width: 100%;
+    }
+    .whi
+    {
+        box-shadow: none;  
+    }
+    .em input , .pa input{
+        width:370px;height:40px;   
+        
+        }
+        .em input::placeholder {
+            padding-left:220px;  
+        }
+        .pa input::placeholder{
+            padding-left:300px; 
+        }
+     .in button{
+        width:385px;height:45px;
+        margin-bottom: 10px;
+  }
+    
+} 
+ @media(max-width:390px){ 
+    .em input , .pa input{
+        width:337px;height:40px;   
+        
+        }
+        .em input::placeholder {
+          padding-left:190px; 
+        }
+        .pa input::placeholder{
+            padding-left:270px; 
+        }
+     .in button{
+        width:352px;height:45px;
+        margin-bottom: 10px;
+  }
+    
+}
+@media(max-width:358px){ 
+    .em input , .pa input{
+        width:300px;height:40px;   
+        
+        }
+        .em input::placeholder {
+          padding-left:150px; 
+        }
+        .pa input::placeholder{
+            padding-left:230px; 
+        }
+     .in button{
+        width:315px;height:45px;
+        margin-bottom: 10px;
+  }
+    
+}
+/* 
+@media(max-width:355px){
+    body{
+        background-color: #fff;
+    }
+    .back{
+        width: 100%;
+    }
+    .whi
+    { 
+        box-shadow: none;  
+    }
+    .em input , .pa input{
+        width:300px;height:40px;
+        
+        }
+        .em input::placeholder {
+            padding-left:180px;  
+        }
+        .pa input::placeholder{
+            padding-left:260px; 
+        }
+     .in button{
+        width:315px;height:45px;
+        margin-bottom: 10px;
+  }
+    
 } */
