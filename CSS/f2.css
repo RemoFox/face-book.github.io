@@ -17,7 +17,7 @@ body
 }
 
 .lmg{
-    height: 70px; 
+    height: 80px; 
     margin: auto;
     display: flex;
     align-items: center;
@@ -354,10 +354,11 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
    .left{
     margin-left: auto;
     margin-right: auto;
-    margin-top: -5px;
+    margin-top: 20px;
    }
    .lmg{
     display: block;
+    margin-bottom: 10px;
 }
 
 }
@@ -371,10 +372,13 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
     .left .whi{
         /* margin-left: -25px; */
            width:290px;
-           height:300px;}
+           height:300px;
+           margin: auto;
+        
+        }
      
            .em input , .pa input{
-               width: 250px;height:30px;
+               width: 250px;height:40px;
                }
                .em input::placeholder {
                    padding-left:100px;  
